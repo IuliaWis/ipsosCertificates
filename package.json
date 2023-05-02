@@ -20,9 +20,6 @@
   "@testing-library/user-event": "^13.5.0",
   
     
-  "gh-pages": "^5.0.0",
-  
-    
   "react": "^18.2.0",
   
     
@@ -61,7 +58,7 @@
   
     
   "deploy": "gh-pages -d build -r https://github.com/IuliaWis/ipsCertificates"
-   
+  
   },
   
   "eslintConfig": {
@@ -119,6 +116,13 @@
   
     
   ]
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "gh-pages": "^5.0.0"
   
   }
 }
