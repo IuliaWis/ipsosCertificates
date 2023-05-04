@@ -9,15 +9,15 @@ class App extends Component {
     super();
     this.state = {
       certif: [],
-      certif_clicked: "All Certificates (***)",
+      certif_clicked: "All Certificates (all.com)",
       certif_select_id: -1,
     };
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/albums")
+    fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
-      .then((albumes) => this.setState({ certif: albumes }));
+      .then((fakedata) => this.setState({ certif: fakedata }));
   }
 
   onCertifClick = (event) => {

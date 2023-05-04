@@ -8,7 +8,7 @@ const CertificatesList = ({ certif, onClickCertif }) => {
         key={-1}
         id={-1}
         name={"All Certificates"}
-        specific={"-1"}
+        specific={"all.com"}
         onClickCertif={onClickCertif}
       />
       {certif.map((cer, i) => {
@@ -16,8 +16,8 @@ const CertificatesList = ({ certif, onClickCertif }) => {
           <CertificateCard
             key={certif[i].id}
             id={certif[i].id}
-            name={certif[i].title}
-            specific={certif[i].userId}
+            name={certif[i].name}
+            specific={certif[i].website}
             onClickCertif={onClickCertif}
           />
         );

@@ -16,7 +16,7 @@ const defaultOptions = {
 
 const Logo = () => {
   return (
-    <div className="ma1 pa2 tc w-10">
+    <div className="ma1 pa2 tc w-10 flex">
       <Tilt options={defaultOptions} style={{ height: 80, width: 80 }}>
         <div>
           <img src={ipsLogo} alt="" />

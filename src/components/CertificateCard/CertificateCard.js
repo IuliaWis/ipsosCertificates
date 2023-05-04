@@ -4,7 +4,7 @@ import "./CertificateCard.css";
 const CertificateCard = ({ id, name, specific, onClickCertif }) => {
   return (
     <div
-      className="tl cardback dib pa1 ma1 br1 bw1 grow shadow-5 pointer flex flex-wrap"
+      className="tl cardback dib pa1 ma1 br2 bw1 grow shadow-5 pointer flex flex-wrap"
       onClick={onClickCertif}
       id={name + " (" + specific + ")/" + id}
     >
