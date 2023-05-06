@@ -3,18 +3,14 @@ import "./CertificateCard.css";
 
 const CertificateCard = ({ id, name, specific, onClickCertif }) => {
   return (
-    <div
-      className="tl cardback dib pa1 ma1 br2 bw1 grow shadow-5 pointer flex flex-wrap"
+    <a
+      className="f6 tl grow no-underline br-pill ba ph3 pv2 mb2 dib dark-gray"
+      href="#0"
       onClick={onClickCertif}
       id={name + " (" + specific + ")/" + id}
     >
-      <h4 className="ma1" id={name}>
-        {name}
-      </h4>
-      <p className="ma1" id={name}>
-        ({specific})
-      </p>
-    </div>
+      {name + " (" + specific + ")"}
+    </a>
   );
 };
 

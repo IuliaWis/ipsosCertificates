@@ -1,9 +1,15 @@
 import React from "react";
 import CertificateCard from "../CertificateCard/CertificateCard";
 
-const CertificatesList = ({ certif, onClickCertif }) => {
+const CertificatesList = ({ certif, onClickCertif, certifclick }) => {
   return (
     <div className="flex flex-column">
+      <a
+        className="f6 tr no-underline br-pill ba ph3 pv2 mb2 dib dark-blue"
+        href="#0"
+      >
+        {certifclick}
+      </a>
       <CertificateCard
         key={-1}
         id={-1}

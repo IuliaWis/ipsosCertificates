@@ -31,16 +31,12 @@ class App extends Component {
       <div className="Appx">
         <Navigation />
         <div>
-          <div className="pa2 ma1 br1 bw1 dib w-100 shadow-5 select1">
-            {this.state.certif_clicked}
-          </div>
-
           <div
             className="dib w-20"
             style={{
               overflowY: "scroll",
               height: "770px",
-              padding: "5px",
+              padding: "10px",
               direction: "rtl",
             }}
           >
@@ -49,6 +45,7 @@ class App extends Component {
                 <CertificatesList
                   certif={this.state.certif}
                   onClickCertif={this.onCertifClick}
+                  certifclick={this.state.certif_clicked}
                 />
               </ErrorBoundry>
             </div>
