@@ -20,9 +20,6 @@
   "@testing-library/user-event": "^13.5.0",
   
     
-  "gh-pages": "^5.0.0",
-  
-    
   "particles-bg": "^2.5.5",
   
     
@@ -122,6 +119,13 @@
   
     
   ]
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "gh-pages": "^5.0.0"
   
   }
 }
