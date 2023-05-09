@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ipsosCertificates/static/css/main.67b0ac55.css",
-    "main.js": "/ipsosCertificates/static/js/main.2a762d11.js",
+    "main.css": "/ipsosCertificates/static/css/main.581d5c6d.css",
+    "main.js": "/ipsosCertificates/static/js/main.ec8e9838.js",
     "static/js/787.5ed481dd.chunk.js": "/ipsosCertificates/static/js/787.5ed481dd.chunk.js",
     "static/media/ips_logo.png": "/ipsosCertificates/static/media/ips_logo.0dce3de458a8f545d572.png",
     "index.html": "/ipsosCertificates/index.html",
-    "main.67b0ac55.css.map": "/ipsosCertificates/static/css/main.67b0ac55.css.map",
-    "main.2a762d11.js.map": "/ipsosCertificates/static/js/main.2a762d11.js.map",
+    "main.581d5c6d.css.map": "/ipsosCertificates/static/css/main.581d5c6d.css.map",
+    "main.ec8e9838.js.map": "/ipsosCertificates/static/js/main.ec8e9838.js.map",
     "787.5ed481dd.chunk.js.map": "/ipsosCertificates/static/js/787.5ed481dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67b0ac55.css",
-    "static/js/main.2a762d11.js"
+    "static/css/main.581d5c6d.css",
+    "static/js/main.ec8e9838.js"
   ]
 }
