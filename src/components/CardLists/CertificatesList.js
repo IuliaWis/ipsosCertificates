@@ -1,11 +1,11 @@
 import React from "react";
-import CertificateCard from "../CertificateCard/CertificateCard";
+import CertificateCard from "../Cards/CertificateCard";
 
 const CertificatesList = ({ certif, onClickCertif, certifclick }) => {
   return (
     <div className="flex flex-column">
       <a
-        className="f6 tr no-underline br-pill ba ph3 pv2 mb2 dib dark-blue"
+        className="f6 tr no-underline grow ba ph3 pv2 mb2 dib bw0 br-pill bg-dark-red white shadow-5"
         href="#0"
       >
         {certifclick}
